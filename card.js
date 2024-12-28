@@ -8,7 +8,6 @@ async function card() {
         let section =document.createElement("section")
         let img =document.createElement("img")
         let pname=document.createElement("h4")
-        let pdes=document.createElement("p")
         let cat=document.createElement("h3")
         let price=document.createElement("h5")
         let rating=document.createElement("h5")
@@ -17,11 +16,10 @@ async function card() {
         let button=document.createElement("button")
         img.src=value.image
         pname.innerHTML=value.title
-        pdes.innerHTML="Description :"+value.description
         cat.innerHTML="Category : "+value.category
         price.innerHTML= "Rs."+value.price
         rating.innerHTML="Rating : "+value.rating.rate
-        button.innerHTML="add to cart"
+        button.innerHTML="Add to cart"
         aside.append(price,rating)
         article.append(aside,button)
         section.append(img,pname,cat,article)
