@@ -7,11 +7,6 @@ body{
     padding: 0px;
     background-color: rgb(190, 187, 182);
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 section
 { 
     background-color:#fdfdfd;
@@ -56,10 +51,12 @@ button
     border-radius: 50%;
     background-color: rgb(29, 164, 15);
     font-weight:bold;
-    font-size: 15px;
+    font-size: 10px;
     cursor:pointer;
     padding: 10px;
     margin-bottom: 10px;
-
-
+}
+button:hover
+{
+    background-color:  #2fec58;
 }
